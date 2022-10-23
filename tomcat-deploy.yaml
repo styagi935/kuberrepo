@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: https://hub.docker.com/repository/docker/signin/hello:latest
+        image: demo:latest
         ports:
         - containerPort: 8003
