@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: signin/hello:tagVersion
+        image: signin/hello:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8003
