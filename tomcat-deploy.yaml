@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: signin/hello:latest
+        image: signin/hello:${DOCKER_TAG}  
         ports:
         - containerPort: 8003
