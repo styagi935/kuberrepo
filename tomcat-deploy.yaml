@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: signin/hello:$BUILD_NUMBER
+        image: signin/hello:latest
         ports:
         - containerPort: 8003
