@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: simple-app-1
+      app: simple-app
   template:
     metadata:
       labels:
-        app: simple-app-1
+        app: simple-app
     spec:
       containers:
       - name: simple-app
