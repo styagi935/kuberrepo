@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-app
-        image: signin/simple-app:latest
+        image: styagi935/simple-app-6.0.0:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8003
