@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello
+  name: simple-app
   labels:
-    app: hello
+    app: simple-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello
+      app: simple-app-1
   template:
     metadata:
       labels:
-        app: hello
+        app: simple-app-1
     spec:
       containers:
-      - name: helloworld
+      - name: simple-app
         image: signin/simple-app:latest
         imagePullPolicy: Always
         ports:
